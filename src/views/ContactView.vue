@@ -3,7 +3,7 @@
         <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded" :options="{
             background: {
                 color: {
-                    value: '#891C24',
+                    value: '#ED1C24',
                 },
             },
             style: {
@@ -102,30 +102,36 @@
                     <div class="container w-100 d-flex align-items-center" id="container-form">
                         <div class="form-contact d-flex justify-content-center">
                             <div id="form-tittle" class="my-5">
-                                <p class="fs-5">Estamos aqui para hacer realidad tus proyectos</p>
+                                <p class="fs-5">"Estamos aqui para hacer realidad tus proyectos"</p>
                             </div>
-                            <form action="">
+                            <form action="https://formsubmit.co/contacto@latecsa.com" method="POST">
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" id="name" placeholder="Nombre y Apellido"
+                                    <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido*</label>
+                                    <input type="text" class="form-control" id="name" name="Nombre_y_Apellido" 
                                         required />
                                 </div>
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" id="number" placeholder="Numero de contacto"
+                                    <label for="exampleFormControlInput1" class="form-label">Numero de Contacto*</label>
+                                    <input type="text" class="form-control" id="number" name="Numero_de_Contacto" 
                                         required />
                                 </div>
                                 <div class="mb-3">
-                                    <input type="email" class="form-control" id="email" placeholder="ejemplo@gmail.com"
+                                    <label for="exampleFormControlInput1" class="form-label">Email*</label>
+                                    <input type="email" class="form-control" id="email" name="Correo_Electronico" 
                                         required />
                                 </div>
                                 <div class="mb-3">
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje"
+                                    <label for="exampleFormControlInput1" class="form-label">Mensaje*</label>
+                                    <textarea class="form-control" name="Mensaje" id="exampleFormControlTextarea1" 
                                         rows="3"></textarea>
                                 </div>
                                 <div class="mb-3">
-                                    <button type="button" class="btn btn-danger w-100 fs-7">
+                                    <button type="submit" class="btn w-100 fs-7 button">
                                         Enviar
                                     </button>
                                 </div>
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_next" value="http://localhost:5174/contact">
                             </form>
                         </div>
                     </div>
@@ -160,6 +166,19 @@ export default {
 </script>
 
 <style scoped>
+
+.button {
+  padding: 7px;
+  background: #ED1C24;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.button:hover {
+  background: #e4070f;
+  box-shadow: 0 2px 2px 0 #000;
+}
 .form-contact {
     flex-direction: column;
     justify-content: center;
@@ -171,7 +190,10 @@ export default {
     box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
-    background: rgba(0, 0, 0, 0.247);
+}
+
+#form-tittle p{
+    font-style: italic;
 }
 
 @media (max-width:530px) {

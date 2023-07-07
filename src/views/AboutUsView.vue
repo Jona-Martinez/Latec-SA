@@ -3,7 +3,7 @@
     <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded" :options="{
       background: {
         color: {
-          value: '#891C24',
+          value: '#ED1C24',
         },
       },
       style: {
@@ -99,7 +99,7 @@
     <div class="about-us container border-bottom my-5">
       <div class="row">
         
-        <div class="col-lg-6 col-md-6 col-sm-12 w-50 info-empress">
+        <div class="col-lg-6 col-md-6 col-sm-12 info-empress">
           <div>
             <p>
               LATEC Sociedad Anónima es una empresa privada fundada e incorporada
@@ -141,7 +141,7 @@
             <div class="section-empress d-flex my-4">
               <div class="card mx-2" style="width: 15rem">
                 <div class="img-card text-center mt-2">
-                  <img src="../assets/img/building-icon.svg" class="card-img-top" style="max-width: 80px" alt="..." />
+                  <img src="../assets/img/About-us/building-icon.svg" class="card-img-top" style="max-width: 80px" alt="..." />
                 </div>
                 <div class="card-body">
                   <p class="card-text">
@@ -153,7 +153,7 @@
               </div>
               <div class="card" style="width: 15rem">
                 <div class="img-card text-center mt-2">
-                  <img src="../assets/img/edit-document-icon.svg" class="card-img-top" style="max-width: 70px"
+                  <img src="../assets/img/About-us/edit-document-icon.svg" class="card-img-top" style="max-width: 70px"
                     alt="..." />
                 </div>
                 <div class="card-body">
@@ -166,7 +166,7 @@
               </div>
               <div class="card mx-2" style="width: 15rem">
                 <div class="img-card text-center mt-2">
-                  <img src="../assets/img/text-document-check-icon.svg" class="card-img-top" style="max-width: 70px"
+                  <img src="../assets/img/About-us/text-document-check-icon.svg" class="card-img-top" style="max-width: 70px"
                     alt="..." />
                 </div>
                 <div class="card-body">
@@ -178,7 +178,7 @@
               </div>
               <div class="card" style="width: 15rem">
                 <div class="img-card text-center mt-2">
-                  <img src="../assets/img/enrollment-icon.svg" class="card-img-top" style="max-width: 80px" alt="..." />
+                  <img src="../assets/img/About-us/enrollment-icon.svg" class="card-img-top" style="max-width: 80px" alt="..." />
                 </div>
                 <div class="card-body">
                   <p class="card-text">
@@ -195,7 +195,7 @@
     <section class="slide-partners">
       <div class="container text-center mt-3">
         <div class="title">
-          <h3 class="text-danger">Partners</h3>
+          <h3 class="text-danger" style="font-style: italic;">Partners</h3>
         </div>
       </div>
       <div class="container">
@@ -254,7 +254,7 @@
 
       <div class="container text-center mt-3">
         <div class="title">
-          <h3 class="text-danger">Clientes</h3>
+          <h3 class="text-danger" style="font-style: italic;">Clientes</h3>
         </div>
       </div>
       <div class="slider">
@@ -318,7 +318,7 @@
           <div class="aptitudes section-empress d-flex justify-content-around">
             <div class="mission">
               <div class="img-mission d-flex justify-content-center">
-                <img src="../assets/img/building-icon.svg" class="img-fluid" style="max-width: 80px" alt="" />
+                <img src="../assets/img/About-us/quality-badge-thumbs-up-icon.svg" class="img-fluid" style="max-width: 80px" alt="" />
               </div>
               <h5 class="text-center">Mision</h5>
               <p>
@@ -329,7 +329,7 @@
 
             <div class="mission">
               <div class="img-mission d-flex justify-content-center">
-                <img src="../assets/img/eye-icon.svg" class="img-fluid" style="max-width: 80px" alt="" />
+                <img src="../assets/img/About-us/eye-icon.svg" class="img-fluid" style="max-width: 80px" alt="" />
               </div>
               <h5 class="text-center">Vision</h5>
               <p>
@@ -341,7 +341,7 @@
 
             <div class="mission">
               <div class="img-mission d-flex justify-content-center">
-                <img src="../assets/img/handshake-icon.svg" class="img-fluid" style="max-width: 80px" alt="" />
+                <img src="../assets/img/About-us/handshake-icon.svg" class="img-fluid" style="max-width: 80px" alt="" />
               </div>
               <h5 class="text-center">Valores</h5>
               <p>
@@ -489,7 +489,6 @@ export default {
   box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
-  background: rgba(0, 0, 0, 0.247);
 }
 
 @media (max-width:992px) {

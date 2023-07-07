@@ -49,16 +49,16 @@
                   /></a>
                 </div>
               </div>
-              <p class="text-light mt-1">0981 532 319</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="footer-info-right footer-box info-none">
               <div class="info d-flex">
-                <a href="">Inicio</a>
-                <a href="">Nosotros</a>
-                <a href="">Portfolio</a>
-                <a href="">Contacto</a>
+                <router-link to="/">Inicio</router-link>
+                <router-link to="/services">Portafolio</router-link>
+                <router-link to="/aboutus">Quienes somos?</router-link>
+                <router-link to="/contact">Contacto</router-link>
+
               </div>
             </div>
           </div>

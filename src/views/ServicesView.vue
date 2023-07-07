@@ -3,7 +3,7 @@
     <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded" :options="{
       background: {
         color: {
-          value: '#891C24',
+          value: '#ED1C24',
         },
       },
       style: {
@@ -146,10 +146,10 @@
             Voluptates, necessitatibus.
           </p>
           <div class="low-info">
-          <h6>Algunos servicios disponibles:</h6>
-          <p class="card-text">
-            Telefonia celular, planta externa, networking & data center.
-          </p>
+            <h6>Algunos servicios disponibles:</h6>
+            <p class="card-text">
+              Telefonia celular, planta externa, networking & data center.
+            </p>
           </div>
         </div>
       </div>
@@ -201,11 +201,12 @@ export default {
 </script>
 
 <style scoped>
-.low-info{
+.low-info {
   position: absolute;
   bottom: 0;
   margin-bottom: 10px;
 }
+
 .card {
   position: relative;
   width: 400px;
@@ -228,7 +229,6 @@ export default {
   box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
-  background: rgba(0, 0, 0, 0.247);
 }
 
 .card {
@@ -237,8 +237,6 @@ export default {
 }
 
 /* media qrys  */
-
-
 @media (max-width: 996px) {
   .container {
     max-width: 100% !important;
@@ -254,20 +252,19 @@ export default {
     align-items: center;
   }
 
-  .card{
+  .card {
     margin-bottom: 20px;
   }
 }
 
 @media (max-width:500px) {
   .card {
-  position: relative;
-  width: 300px;
-  height: 520px;
-}
+    position: relative;
+    width: 300px;
+    height: 520px;
+  }
 
-.card{
-  margin-bottom: 40px;
-}
-}
-</style>
+  .card {
+    margin-bottom: 40px;
+  }
+}</style>
