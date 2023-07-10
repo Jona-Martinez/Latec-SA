@@ -11,6 +11,10 @@ const particlesInit = async (engine) => {
 const particlesLoaded = async (container) => {
   console.log("Particles container loaded", container);
 };
+
+
+
+
 </script>
 
 <template>
@@ -100,15 +104,15 @@ const particlesLoaded = async (container) => {
       },
       detectRetina: true,
     }" />
-    <div class="container d-flex justify-content-center h-100 home-info">
-      <div class="row align-items-center">
-        <div class="col-lg-6 text-center mt-5 d-flex align-items-center justify-content-center">
+    <div class="container d-flex justify-content-center h-100 home-info" transition="fade">
+      <div class="row align-items-center" transition="fade">
+        <div class="col-lg-6 text-center mt-5 d-flex align-items-center justify-content-center" transition="fade">
           <div class="img">
             <img src="../assets/img/Logo-RRSS-removebg-preview.png" style="max-width: 300px; border-radius: 40%" alt=""
               class="logo" />
           </div>
         </div>
-        <div class="col-lg-6 mt-5">
+        <div class="col-lg-6 mt-5" transition="fade">
           <div class="info">
             <p class="h1">Empresa</p>
             <p class="h1">enfocada a</p>
@@ -123,49 +127,52 @@ const particlesLoaded = async (container) => {
     <div class="section">
       <div class="container mt-3">
         <div class="row">
-          <div class="col-lg-2 col-md-6 col-sm-12 text-center">
+          <div class="col-lg-3 col-md-6 col-sm-12 text-center">
             <img src="../assets/img/home-icons/Telecomunicaciones.png" width="130" />
             <div class="text-center">
               <p class="fs-6">Telecomunicaciones</p>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6 col-sm-12 text-center">
+          <div class="col-lg-3 col-md-6 col-sm-12 text-center">
             <img src="../assets/img/home-icons/Seguridad-Electronica.png" width="130" />
             <div class="text-center">
               <p class="fs-6">Seguridad Electronica</p>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6 col-sm-12 text-center">
+          <div class="col-lg-3 col-md-6 col-sm-12 text-center">
             <img src="../assets/img/home-icons/Automatizacion.png" width="130" />
             <div class="text-center">
               <p class="fs-6">Automatizacion</p>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6 col-sm-12 text-center">
+          <div class="col-lg-3 col-md-6 col-sm-12 text-center">
             <img src="../assets/img/home-icons/Energia-Renovable.png" width="130" />
             <div class="text-center">
               <p class="fs-6">Energia Renovable</p>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6 col-sm-12 text-center">
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
             <img src="../assets/img/home-icons/Obras-Civiles.png" width="130" />
             <div class="text-center">
               <p class="fs-6">Obras Civiles</p>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6 col-sm-12 text-center">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
             <img src="../assets/img/home-icons/Laboratorio.png" width="130" />
             <div class="text-center">
               <p class="fs-6">Instrumentos de Laboratorio</p>
             </div>
           </div>
-          <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
             <img src="../assets/img/home-icons/Proyectos.png" width="130" />
             <div class="text-center">
               <p class="fs-6">Proyectos</p>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>
@@ -184,17 +191,17 @@ const particlesLoaded = async (container) => {
           </div>
           <div class="carousel-inner border-radius">
             <div class="carousel-item active">
-              <img src="../assets/img/carousel/antena.jpg" class="d-block w-100"
+              <img src="../assets/img/carousel/antena.jpg" class="d-block w-100 carousel-img"
                 alt="Photo by Jo Kassis: https://www.pexels.com/photo/telecommunication-tower-on-city-hill-5567920/" />
 
             </div>
             <div class="carousel-item bg-carousel">
-              <img src="../assets/img/carousel/construccion.jpg" class="d-block w-100"
+              <img src="../assets/img/carousel/construccion.jpg" class="d-block w-100 carousel-img"
                 alt="Photo by Olga Lioncat: https://www.pexels.com/photo/modern-buildings-under-constructions-in-city-7245333/" />
 
             </div>
             <div class="carousel-item">
-              <img src="../assets/img/carousel/tecnology.jpg" class="d-block w-100"
+              <img src="../assets/img/carousel/tecnology.jpg" class="d-block w-100 carousel-img"
                 alt="Photo by ThisIsEngineering: https://www.pexels.com/photo/photo-of-female-engineer-working-on-her-workspace-3862632/" />
 
             </div>
@@ -232,49 +239,49 @@ const particlesLoaded = async (container) => {
   <div class="slider">
     <div class="slide-track">
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/Acsys.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/Centronic.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/Controls.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/Dacas.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/GDS.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/Infinycore.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/Infovista.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/PSline.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/Sol-Control.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/Acsys.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/Centronic.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/Controls.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/Dacas.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/GDS.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Partners/Infinycore.png" alt="" />
       </div>
     </div>
   </div>
@@ -288,49 +295,49 @@ const particlesLoaded = async (container) => {
   <div class="slider border-bottom">
     <div class="slide-track">
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Altervida.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Americana.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Artics.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Celexx.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Claro.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Code100.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Ericsson.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Guarani.png" alt="" style="border-radius: 30px;" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Inpet.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Itaipu.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Mspbs.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/PCG.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Sites.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Tigo.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/1.png" alt="" />
+        <img src="../assets/img/slide/Clientes/Torrecom.png" alt="" />
       </div>
     </div>
   </div>
@@ -370,12 +377,8 @@ const particlesLoaded = async (container) => {
     </div>
   </section>
 
-    <div class="go-top-container">
-      <div class="go-top-button">
-        <a href=".logo"><i class="fas fa-chevron-up">~</i></a>
-      </div>
-    </div>
- 
+  <span class="ir-arriba icon-arrow-up2"></span>
+
   <FooterComp />
 </template>
 
@@ -429,6 +432,10 @@ const particlesLoaded = async (container) => {
 
 #container-form {
   max-width: 600px;
+}
+
+.carousel-img {
+  width: 1920px;
 }
 
 .button-about-us {
@@ -493,4 +500,5 @@ const particlesLoaded = async (container) => {
   .logo {
     width: 160px;
   }
-}</style>
+}
+</style>

@@ -98,7 +98,7 @@
   <main>
     <div class="about-us container border-bottom my-5">
       <div class="row">
-        
+
         <div class="col-lg-6 col-md-6 col-sm-12 info-empress">
           <div>
             <p>
@@ -141,7 +141,8 @@
             <div class="section-empress d-flex my-4">
               <div class="card mx-2" style="width: 15rem">
                 <div class="img-card text-center mt-2">
-                  <img src="../assets/img/About-us/building-icon.svg" class="card-img-top" style="max-width: 80px" alt="..." />
+                  <img src="../assets/img/About-us/building-icon.svg" class="card-img-top" style="max-width: 80px"
+                    alt="..." />
                 </div>
                 <div class="card-body">
                   <p class="card-text">
@@ -166,8 +167,8 @@
               </div>
               <div class="card mx-2" style="width: 15rem">
                 <div class="img-card text-center mt-2">
-                  <img src="../assets/img/About-us/text-document-check-icon.svg" class="card-img-top" style="max-width: 70px"
-                    alt="..." />
+                  <img src="../assets/img/About-us/text-document-check-icon.svg" class="card-img-top"
+                    style="max-width: 70px" alt="..." />
                 </div>
                 <div class="card-body">
                   <p class="card-text">
@@ -178,7 +179,8 @@
               </div>
               <div class="card" style="width: 15rem">
                 <div class="img-card text-center mt-2">
-                  <img src="../assets/img/About-us/enrollment-icon.svg" class="card-img-top" style="max-width: 80px" alt="..." />
+                  <img src="../assets/img/About-us/enrollment-icon.svg" class="card-img-top" style="max-width: 80px"
+                    alt="..." />
                 </div>
                 <div class="card-body">
                   <p class="card-text">
@@ -205,49 +207,49 @@
       <div class="slider">
         <div class="slide-track">
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/Acsys.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/Centronic.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/Controls.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/Dacas.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/GDS.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/Infinycore.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/Infovista.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/PSline.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/Sol-Control.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/Acsys.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/Centronic.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/Controls.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/Dacas.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/GDS.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Partners/Infinycore.png" alt="" />
           </div>
         </div>
       </div>
@@ -260,49 +262,49 @@
       <div class="slider">
         <div class="slide-track">
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Altervida.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Americana.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Artics.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Celexx.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Claro.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Code100.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Ericsson.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Guarani.png" alt="" style="border-radius: 30px;" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Inpet.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Itaipu.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Mspbs.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/PCG.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Sites.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Tigo.png" alt="" />
           </div>
           <div class="slide">
-            <img src="../assets/img/1.png" alt="" />
+            <img src="../assets/img/slide/Clientes/Torrecom.png" alt="" />
           </div>
         </div>
       </div>
@@ -318,7 +320,8 @@
           <div class="aptitudes section-empress d-flex justify-content-around">
             <div class="mission">
               <div class="img-mission d-flex justify-content-center">
-                <img src="../assets/img/About-us/quality-badge-thumbs-up-icon.svg" class="img-fluid" style="max-width: 80px" alt="" />
+                <img src="../assets/img/About-us/quality-badge-thumbs-up-icon.svg" class="img-fluid"
+                  style="max-width: 80px" alt="" />
               </div>
               <h5 class="text-center">Mision</h5>
               <p>
@@ -503,8 +506,14 @@ export default {
   }
 }
 
+@media (max-width:530px) {
+  .bg-particles {
+    height: 15vh;
+  }
+}
+
 @media (max-width:430px) {
-  .info-empress{
+  .info-empress {
     width: 90% !important;
   }
 }

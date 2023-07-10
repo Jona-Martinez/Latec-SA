@@ -107,22 +107,21 @@
                             <form action="https://formsubmit.co/contacto@latecsa.com" method="POST">
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido*</label>
-                                    <input type="text" class="form-control" id="name" name="Nombre_y_Apellido" 
-                                        required />
+                                    <input type="text" class="form-control" id="name" name="Nombre_y_Apellido" required />
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label">Numero de Contacto*</label>
-                                    <input type="text" class="form-control" id="number" name="Numero_de_Contacto" 
+                                    <input type="text" class="form-control" id="number" name="Numero_de_Contacto"
                                         required />
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label">Email*</label>
-                                    <input type="email" class="form-control" id="email" name="Correo_Electronico" 
+                                    <input type="email" class="form-control" id="email" name="Correo_Electronico"
                                         required />
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label">Mensaje*</label>
-                                    <textarea class="form-control" name="Mensaje" id="exampleFormControlTextarea1" 
+                                    <textarea class="form-control" name="Mensaje" id="exampleFormControlTextarea1"
                                         rows="3"></textarea>
                                 </div>
                                 <div class="mb-3">
@@ -166,19 +165,19 @@ export default {
 </script>
 
 <style scoped>
-
 .button {
-  padding: 7px;
-  background: #ED1C24;
-  border: none;
-  border-radius: 10px;
-  color: #fff;
+    padding: 7px;
+    background: #ED1C24;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
 }
 
 .button:hover {
-  background: #e4070f;
-  box-shadow: 0 2px 2px 0 #000;
+    background: #e4070f;
+    box-shadow: 0 2px 2px 0 #000;
 }
+
 .form-contact {
     flex-direction: column;
     justify-content: center;
@@ -192,13 +191,17 @@ export default {
     -moz-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-#form-tittle p{
+#form-tittle p {
     font-style: italic;
 }
 
 @media (max-width:530px) {
-    .container{
+    .container {
         max-width: 90%;
+    }
+
+    .bg-particles {
+        height: 15vh;
     }
 }
 </style>

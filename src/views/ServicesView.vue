@@ -125,10 +125,12 @@
             em maiores nostrum tempore provident eum eius repellendus, deleniti rem vero repudiandae earum voluptate,
             atque deserunt! Voluptates, necessitatibus.
           </p>
-          <h6>Algunos servicios disponibles:</h6>
-          <p class="card-text">
-            CCTV, control de acceso, prevencion de incendios, telemetria.
-          </p>
+          <div class="low-info">
+            <h6>Algunos servicios disponibles:</h6>
+            <p class="card-text">
+              CCTV, control de acceso, prevencion de incendios, telemetria.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -139,7 +141,88 @@
           <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
         </div>
         <div class="info-service px-4">
-          <h5 class="card-tittle text-center mt-2">Telecomunicaciones</h5>
+          <h5 class="card-tittle text-center mt-2">Automatizacion</h5>
+          <p class="card-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nesciunt porro unde autem maiores nostrum
+            tempore provident eum eius repellendus, deleniti rem vero repudiandae earum voluptate, atque deserunt!
+            Voluptates, necessitatibus.
+          </p>
+          <div class="low-info">
+            <h6>Algunos servicios disponibles:</h6>
+            <p class="card-text">
+              Industrial, domótica.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-service">
+          <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="info-service px-4">
+          <h5 class="card-tittle text-center mt-2">Energia Renovable</h5>
+          <p class="card-text">
+            iunt porro unde autem maiores nostrum
+            tempus.
+          </p>
+          <div class="low-info">
+            <h6>Algunos servicios disponibles:</h6>
+            <p class="card-text">
+              Parques solares.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between services mt-5">
+      <div class="card">
+        <div class="img-service">
+          <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="info-service px-4">
+          <h5 class="card-tittle text-center mt-2">Obras Civiles</h5>
+          <p class="card-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nesciunt porro unde autem maiores nostrum
+            tempore provident eum eius repellendus, deleniti rem vero repudiandae earum voluptate, atque deserunt!
+            Voluptates, necessitatibus.
+          </p>
+          <div class="low-info">
+            <h6>Algunos servicios disponibles:</h6>
+            <p class="card-text">
+              Domiciliarias, industriales, comerciales.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-service">
+          <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="info-service px-4">
+          <h5 class="card-tittle text-center mt-2">Instrumentos de Laboratorio</h5>
+          <p class="card-text">
+            iunt porro unde autem maiores nostrum
+            tempus.
+          </p>
+          <div class="low-info">
+            <h6>Algunos servicios disponibles:</h6>
+            <p class="card-text">
+              Mecánica computacional, electricidad, electrónica, física, química, telecomunicaciones, automatizacion,
+              robótica, geotecnia y asfalto, hidráulica.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center services mt-5">
+      <div class="card">
+        <div class="img-service">
+          <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="info-service px-4">
+          <h5 class="card-tittle text-center mt-2">Proyectos</h5>
           <p class="card-text">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nesciunt porro unde autem maiores nostrum
             tempore provident eum eius repellendus, deleniti rem vero repudiandae earum voluptate, atque deserunt!
@@ -153,24 +236,7 @@
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="img-service">
-          <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
-        </div>
-        <div class="info-service px-4">
-          <h5 class="card-tittle text-center mt-2">Seguridad Electronica</h5>
-          <p class="card-text">
-            iunt porro unde autem maiores nostrum
-            tempus.
-          </p>
-          <div class="low-info">
-            <h6>Algunos servicios disponibles:</h6>
-            <p class="card-text">
-              CCTV, control de acceso, prevencion de incendios, telemetria.
-            </p>
-          </div>
-        </div>
-      </div>
+
     </div>
 
   </div>
@@ -264,7 +330,12 @@ export default {
     height: 520px;
   }
 
+  .bg-particles {
+    height: 15vh;
+  }
+
   .card {
     margin-bottom: 40px;
   }
-}</style>
+}
+</style>

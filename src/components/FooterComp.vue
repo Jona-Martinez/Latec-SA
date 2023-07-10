@@ -148,8 +148,6 @@ export default {
     margin-bottom: 20px;
   }
 
-  .info-none{
-    display: none;
-  }
+
 }
 </style>
