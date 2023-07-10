@@ -152,27 +152,27 @@ const particlesLoaded = async (container) => {
             </div>
           </div>
         </div>
-        <div class="row mt-5">
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-            <img src="../assets/img/home-icons/Obras-Civiles.png" width="130" />
-            <div class="text-center">
-              <p class="fs-6">Obras Civiles</p>
+          <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+              <img src="../assets/img/home-icons/Obras-Civiles.png" width="130" />
+              <div class="text-center">
+                <p class="fs-6">Obras Civiles</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+              <img src="../assets/img/home-icons/Laboratorio.png" width="130" />
+              <div class="text-center">
+                <p class="fs-6">Instrumentos de Laboratorio</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+              <img src="../assets/img/home-icons/Proyectos.png" width="130" />
+              <div class="text-center">
+                <p class="fs-6">Proyectos</p>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-            <img src="../assets/img/home-icons/Laboratorio.png" width="130" />
-            <div class="text-center">
-              <p class="fs-6">Instrumentos de Laboratorio</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-            <img src="../assets/img/home-icons/Proyectos.png" width="130" />
-            <div class="text-center">
-              <p class="fs-6">Proyectos</p>
-            </div>
-          </div>
-        </div>
-
+        
       </div>
     </div>
   </div>
@@ -316,7 +316,9 @@ const particlesLoaded = async (container) => {
         <img src="../assets/img/slide/Clientes/Ericsson.png" alt="" />
       </div>
       <div class="slide">
-        <img src="../assets/img/slide/Clientes/Guarani.png" alt="" style="border-radius: 30px;" />
+        <img src="../assets/img/slide/Clientes/Guarani.png" alt="" 
+        style="border-radius: 30px;"
+        />
       </div>
       <div class="slide">
         <img src="../assets/img/slide/Clientes/Inpet.png" alt="" />
@@ -434,7 +436,7 @@ const particlesLoaded = async (container) => {
   max-width: 600px;
 }
 
-.carousel-img {
+.carousel-img{
   width: 1920px;
 }
 

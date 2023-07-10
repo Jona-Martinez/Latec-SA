@@ -54,10 +54,10 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="footer-info-right footer-box info-none">
               <div class="info d-flex">
-                <router-link to="/">Inicio</router-link>
-                <router-link to="/services">Portafolio</router-link>
-                <router-link to="/aboutus">Quienes somos?</router-link>
-                <router-link to="/contact">Contacto</router-link>
+                <router-link to="/" @click="scrollToTop">Inicio</router-link>
+                <router-link to="/services" @click="scrollToTop">Portafolio</router-link>
+                <router-link to="/aboutus" @click="scrollToTop">Quienes somos?</router-link>
+                <router-link to="/contact" @click="scrollToTop">Contacto</router-link>
 
               </div>
             </div>
@@ -79,11 +79,16 @@
 </template>
 
 <script>
-export default {
+export default {  
   name: "FooterComp",
   components: {
     
   },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0); // Desplaza la página al inicio
+    }
+  }
 };
 </script>
 
