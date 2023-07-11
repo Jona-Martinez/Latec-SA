@@ -1,3 +1,26 @@
+<script>
+import { loadFull } from "tsparticles";
+import FooterComp from "../components/FooterComp.vue";
+
+
+
+const particlesInit = async (engine) => {
+  await loadFull(engine);
+};
+
+const particlesLoaded = async (container) => {
+  console.log("Particles container loaded", container);
+};
+
+
+export default {
+  name: "ServicesView",
+  components: {
+    FooterComp,
+  },
+};
+</script>
+
 <template>
   <main class="bg-particles">
     <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded" :options="{
@@ -100,7 +123,7 @@
     <div class="d-flex justify-content-between services">
       <div class="card">
         <div class="img-service">
-          <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
+          <img src="../assets/img/portafolio/telecomunicaciones.jpg" class="img-fluid" alt="">
         </div>
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Telecomunicaciones</h5>
@@ -109,15 +132,17 @@
             tempore provident eum eius repellendus, deleniti rem vero repudiandae earum voluptate, atque deserunt!
             Voluptates, necessitatibus.
           </p>
-          <h6>Algunos servicios disponibles:</h6>
-          <p class="card-text">
-            Telefonia celular, planta externa, networking & data center.
-          </p>
+          <div class="low-info">
+            <h6>Algunos servicios disponibles:</h6>
+            <p class="card-text">
+              Telefonia celular, planta externa, networking & data center.
+            </p>
+          </div>
         </div>
       </div>
       <div class="card">
         <div class="img-service">
-          <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
+          <img src="../assets/img/portafolio/electronica.jpg" class="img-fluid" alt="">
         </div>
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Seguridad Electronica</h5>
@@ -138,7 +163,7 @@
     <div class="d-flex justify-content-between services mt-5">
       <div class="card">
         <div class="img-service">
-          <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
+          <img src="../assets/img/portafolio/automatizacion.jpg" class="img-fluid" alt="">
         </div>
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Automatizacion</h5>
@@ -157,13 +182,12 @@
       </div>
       <div class="card">
         <div class="img-service">
-          <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
+          <img src="../assets/img/portafolio/energia-renovable.jpg" class="img-fluid" alt="">
         </div>
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Energia Renovable</h5>
           <p class="card-text">
-            iunt porro unde autem maiores nostrum
-            tempus.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias laudantium quas magnam soluta, similique id ipsa natus voluptatibus repellat saepe omnis ratione pariatur, exercitationem quia.
           </p>
           <div class="low-info">
             <h6>Algunos servicios disponibles:</h6>
@@ -178,7 +202,7 @@
     <div class="d-flex justify-content-between services mt-5">
       <div class="card">
         <div class="img-service">
-          <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
+          <img src="../assets/img/portafolio/obras-civiles.jpg" class="img-fluid" alt="">
         </div>
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Obras Civiles</h5>
@@ -197,13 +221,12 @@
       </div>
       <div class="card">
         <div class="img-service">
-          <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
+          <img src="../assets/img/portafolio/laboratorio.jpg" class="img-fluid" alt="">
         </div>
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Instrumentos de Laboratorio</h5>
           <p class="card-text">
-            iunt porro unde autem maiores nostrum
-            tempus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corporis dignissimos aliquid obcaecati, voluptatibus dolorum totam ipsum sit facere similique.
           </p>
           <div class="low-info">
             <h6>Algunos servicios disponibles:</h6>
@@ -219,7 +242,7 @@
     <div class="d-flex justify-content-center services mt-5">
       <div class="card">
         <div class="img-service">
-          <img src="../assets/img/slide1.jpg" class="img-fluid" alt="">
+          <img src="../assets/img/portafolio/proyecto.jpg" class="img-fluid" alt="">
         </div>
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Proyectos</h5>
@@ -244,27 +267,7 @@
   <FooterComp />
 </template>
 
-<script>
-import { loadFull } from "tsparticles";
-import FooterComp from "../components/FooterComp.vue";
 
-
-
-const particlesInit = async (engine) => {
-  await loadFull(engine);
-};
-
-const particlesLoaded = async (container) => {
-  console.log("Particles container loaded", container);
-};
-
-export default {
-  name: "ServicesView",
-  components: {
-    FooterComp,
-  },
-};
-</script>
 
 <style scoped>
 .low-info {

@@ -16,27 +16,27 @@
                 src="../assets/img/Logo-RRSS-removebg-preview.png"
                 class="img-fluid mb-2"
                 style="max-width: 70px; border-radius: 20%"
-                alt=""
+                alt="Logo-Latec-Icono"
               />
               <div class="borderline mb-2">
                 <div class="center-box"></div>
               </div>
               <div class="socialmedia-box">
                 <div class="img-color">
-                  <a href=""
+                  <a href="https://www.facebook.com/Latec-SA-109722915494227/"
                     ><img
                       src="../assets/img/social-media/facebook-round-icon.png"
                       style="max-width: 35px;"
-                      alt=""
+                      alt="Facebook-Icono"
                   /></a>
                 </div>
 
                 <div class="img-color">
-                  <a href=""
+                  <a href="https://www.instagram.com/latecsa/"
                     ><img
                       src="../assets/img/social-media/instagram-round-icon.png"
                       style="max-width: 35px;"
-                      alt=""
+                      alt="Instagram-Icono"
                   /></a>
                 </div>
 
@@ -45,7 +45,7 @@
                     ><img
                       src="../assets/img/social-media/linkedin-round-icon.png"
                       style="max-width: 35px;"
-                      alt=""
+                      alt="LinkedIn-Icono"
                   /></a>
                 </div>
               </div>

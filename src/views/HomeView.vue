@@ -13,8 +13,6 @@ const particlesLoaded = async (container) => {
 };
 
 
-
-
 </script>
 
 <template>
@@ -349,7 +347,7 @@ const particlesLoaded = async (container) => {
     <div class="container text-center" id="container-form">
       <div id="form-tittle" class="mb-4">
         <h2>Contacto</h2>
-        <p class="fs-5">Estamos aqui para hacer realidad tus proyectos</p>
+        <p class="fs-5" style="font-style: italic;">"Estamos aqui para hacer realidad tus proyectos"</p>
       </div>
       <form action="https://formsubmit.co/contacto@latecsa.com" method="POST">
         <div class="mb-3">
