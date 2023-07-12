@@ -404,6 +404,9 @@ const particlesLoaded = async (container) => {
   margin-bottom: 50px;
 }
 
+.slide{
+  margin: 0 20px;
+}
 .info p {
   color: #fff;
 }

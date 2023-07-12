@@ -494,6 +494,10 @@ export default {
   -moz-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+.slide{
+  margin: 0 20px;
+}
+
 @media (max-width:992px) {
   .section-empress {
     flex-direction: column;
