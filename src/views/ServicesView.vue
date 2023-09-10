@@ -128,9 +128,7 @@ export default {
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Telecomunicaciones</h5>
           <p class="card-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nesciunt porro unde autem maiores nostrum
-            tempore provident eum eius repellendus, deleniti rem vero repudiandae earum voluptate, atque deserunt!
-            Voluptates, necessitatibus.
+            Descubre la última tecnología en telefónica celular, infraestructura de planta externa, networking y data centers. Mantente conectado con lo mejor en comunicaciones y conectividad.
           </p>
           <div class="low-info">
             <h6>Algunos servicios disponibles:</h6>
@@ -147,8 +145,7 @@ export default {
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Seguridad Electronica</h5>
           <p class="card-text">
-            em maiores nostrum tempore provident eum eius repellendus, deleniti rem vero repudiandae earum voluptate,
-            atque deserunt! Voluptates, necessitatibus.
+            Asegura la seguridad de tu entorno con CCTV, control de acceso, prevención de incendios y telemetría. Con nuestra solución de telemetría, obtén información en tiempo real para tomar decisiones precisas.
           </p>
           <div class="low-info">
             <h6>Algunos servicios disponibles:</h6>
@@ -168,9 +165,7 @@ export default {
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Automatizacion</h5>
           <p class="card-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nesciunt porro unde autem maiores nostrum
-            tempore provident eum eius repellendus, deleniti rem vero repudiandae earum voluptate, atque deserunt!
-            Voluptates, necessitatibus.
+            Optimiza tus operaciones industriales con nuestra solución de domótica industrial. Controla y automatiza procesos para aumentar la eficiencia y reducir costos en tu entorno de trabajo.
           </p>
           <div class="low-info">
             <h6>Algunos servicios disponibles:</h6>
@@ -187,7 +182,7 @@ export default {
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Energia Renovable</h5>
           <p class="card-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias laudantium quas magnam soluta, similique id ipsa natus voluptatibus repellat saepe omnis ratione pariatur, exercitationem quia.
+            Únete a la revolución energética con nuestros parques solares. Genera electricidad limpia y sostenible a partir de la radiación solar, contribuyendo al cuidado del medio ambiente y reduciendo costos energéticos.
           </p>
           <div class="low-info">
             <h6>Algunos servicios disponibles:</h6>
@@ -226,7 +221,7 @@ export default {
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Instrumentos de Laboratorio</h5>
           <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corporis dignissimos aliquid obcaecati, voluptatibus dolorum totam ipsum sit facere similique.
+            Explora un mundo de conocimiento en campos como la mecánica computacional, electricidad, electrónica, física, química, telecomunicaciones, automatización, robótica, geotecnia, asfalto e hidráulica. Transforma tu pasión en innovación.
           </p>
           <div class="low-info">
             <h6>Algunos servicios disponibles:</h6>
@@ -247,9 +242,7 @@ export default {
         <div class="info-service px-4">
           <h5 class="card-tittle text-center mt-2">Proyectos</h5>
           <p class="card-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nesciunt porro unde autem maiores nostrum
-            tempore provident eum eius repellendus, deleniti rem vero repudiandae earum voluptate, atque deserunt!
-            Voluptates, necessitatibus.
+            Eleva tus proyectos con nuestra experiencia en telefónica celular, infraestructura de planta externa, networking y data centers. Diseñamos soluciones tecnológicas de vanguardia para potenciar tu conectividad empresarial.
           </p>
           <div class="low-info">
             <h6>Algunos servicios disponibles:</h6>
@@ -304,6 +297,11 @@ export default {
   position: relative;
   margin-bottom: 30px;
 }
+
+.card h6{
+  font-weight:bold;
+}
+
 
 /* media qrys  */
 @media (max-width: 996px) {
